@@ -1,0 +1,35 @@
+html{
+    background-color: #ffffff;
+}
+#content-wrapper{
+    position: relative;
+    min-height: 90vh;
+}
+
+#content-wrapper .content{
+    height: 100%;
+    padding-top: 7vh;
+    padding-bottom: 5vh;
+}
+
+header, footer{
+    height: 5vh;
+}
+
+.login-btn{
+    position: absolute;
+    right: 10vw;
+}
+
+button{
+    margin: 5px;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.logged-user{
+    color: rgba(0,0,0,.5);
+    padding: 15px;
+}
